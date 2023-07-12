@@ -1,0 +1,227 @@
+ .main_container {
+   height: 90vh;
+   min-width: 100%;
+ }
+
+ .container_top {
+   min-width: 850px;
+   height: 100px;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 3px 8px 0px;
+   text-align: center;
+   border-radius: 15px;
+   display: flex;
+   justify-content: center;
+ }
+
+ .group_top {
+   /* text-align: center; */
+   margin: 10px 10px;
+ }
+
+ .group_top button {
+   padding: 15px 50px;
+   margin-top: 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 19px;
+   border: 1px solid black;
+   background-color: white;
+   color: cadetblue;
+   border: 2px solid cadetblue;
+   transition: .5s;
+ }
+
+ .group_top button:hover {
+   background-color: cadetblue;
+   color: white;
+   font-size: 19px;
+   border: 2px solid cadetblue;
+ }
+
+ .container_bottom {
+   min-width: 350px;
+   height: 630px;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   border-radius: 5px;
+ }
+
+ 
+
+ .group_bottom h1 {
+   text-align: center;
+   justify-content: center;
+   font-size: 30px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: cadetblue;
+
+ }
+ .group_bottom {
+  position: relative;
+  width: 50%;
+  margin: 2% ;
+  transition: 5s;
+  margin-left: 25%;
+}
+.group_bottom img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 15%;
+  width: 33%;
+margin-top: -5%;
+}
+
+ .group_bottom input {
+   /* height: 50px;
+   width: 50%;
+   align-items: center;
+   border: 0;
+   border-bottom: 1px solid black;
+   transition: .3sec ease;
+   position: relative; */
+   width: 100%;
+   padding: 10px;
+   border: 1px solid black;
+   border-radius: 5px;
+   outline: none;
+   font-size: 1em;
+   transition:.5s;
+  
+ }
+
+ .group_bottom input:focus {
+   outline: none;
+ }
+ .group_bottom span{
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: black;
+  transition: 0.5s;
+ }
+ .group_bottom input:valid ~ span,
+ .group_bottom input:focus ~ span{
+  color: black;
+  transform: translateX(10px) translateY(-7px);
+  font-size: 0.65em;
+  padding: 0 10px;
+  background: none;
+  letter-spacing: 0.2em;
+  position:absolute;
+ }
+ .group_bottom:nth-child(2) input:valid ~ span,
+ .group_bottom:nth-child(2) input:focus ~ span{
+ background: white;
+  border: 1px solid cadetblue;
+ }
+ .group_bottom:nth-child(3) input:valid ~ span,
+ .group_bottom:nth-child(3) input:focus ~ span{
+ background: white;
+  border: 1px solid cadetblue;
+ }
+ .group_bottom:nth-child(4) input:valid ~ span,
+ .group_bottom:nth-child(4) input:focus ~ span{
+ background: white;
+  border: 1px solid cadetblue;
+
+ }
+ .group_bottom textarea {
+   /* border: none;
+   height: 50px;
+   width: 50%;
+   align-items: center;
+   border: 0;
+   border-bottom: 1px solid black;
+   transition: .3sec ease;
+   position: relative; */
+   width: 100%;
+   padding: 10px;
+   border: 1px solid black;
+   border-radius: 5px;
+   outline: none;
+   font-size: 1em;
+   transition:.5s;
+ }
+ .group_bottom textarea:focus {
+  outline: none;
+ }
+ .group_bottom textarea:valid ~ span,
+ .group_bottom textarea:focus ~ span{
+  color: black;
+  transform: translateX(10px) translateY(-7px);
+  font-size: 0.65em;
+  padding: 0 10px;
+  background: none;
+  letter-spacing: 0.2em;
+  position:absolute;
+ }
+ .group_bottom:nth-child(5) textarea:valid ~ span,
+ .group_bottom:nth-child(5) textarea:focus ~ span{
+ background: white;
+  border: 1px solid cadetblue;
+ }
+
+ .multi-class {
+   max-height: max-content;
+   width: 50%;
+  margin-left: 25%;
+  margin-top: 2%; 
+  border-radius: 5px;
+  border: 1px solid black;
+ 
+ }
+
+ .group_bottom button {
+   /* padding: 10px 40px;
+   border: 0px;
+   border-radius: 5px;
+   background-color: cadetblue;
+   color: white;
+   cursor: pointer;
+   font-size: 17px;
+   margin-left: 35%;  */
+   padding: 15px 50px;
+   margin-left: 35%;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 19px;
+   border: 1px solid black;
+   background-color: white;
+   color: cadetblue;
+   border: 2px solid cadetblue;
+   transition: .5s;
+ }
+ .group_bottom button:hover{
+  background-color: cadetblue;
+  color: white;
+  border: 2px solid cadetblue;
+ }
+
+ .group_bottom .user {
+   color: cadetblue;
+   margin-top: 5%;
+
+
+
+ }
+
+ .services {
+   height: 20vh;
+   width: 90%;
+   /* border:1px solid black; */
+   margin-left: 5%;
+ }
+
+ .services button {
+   margin-top: 1%;
+   float: right;
+ }
+
+
+ .services .white {
+   background-color: white;
+
+ }

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+
+:root{
+    --dark-blue: #172337;
+    --border-light-grey:  #e1e1e1;
+    --text-grey: #666;
+}
+body{
+    background-color: #f1f1f1;
+}
+.productImage{
+    width: 200px;
+    height: 200px;
+}
+.text-center{
+    text-align: center;
+}

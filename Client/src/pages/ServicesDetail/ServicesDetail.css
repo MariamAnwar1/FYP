@@ -1,0 +1,105 @@
+.service-container{
+  min-width: 100%;
+}
+
+.services-detail{
+     min-height: 85vh;
+        margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        width: 55%;
+        
+
+}
+.service-info p ,label{
+  display: inline;
+  line-height:1.5;
+}
+.service-info p{
+   font-size: 20px;
+}
+.service-info label{
+   font-size: 20px;
+   margin-left: 3%;
+   font-weight: 600;
+}
+.services-info h1{
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:cadetblue;
+}
+.services-info h2{
+    background-color:cadetblue;
+    width: 100%;
+    display: inline-block;
+    height: 7vh;
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+}
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    right: 30%;
+    border: 3px solid #f1f1f1;
+    background-color: white;
+    z-index: 1;
+    /* top: 65px; */
+    bottom: 20px;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 500px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .form-container input
+  /* .form-container input[type=date], .form-container input[type=time], .form-container input[type=file], .form-container textarea */
+   {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: #f1f1f1;
+  }
+  .form-container textarea{
+    height: 20vh;
+    width: 100%;
+  }
+  
+
+  /* When the inputs get focus, do something */
+  .form-container input[type=date]:focus, .form-container input[type=time]:focus ,.form-container textarea:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: cadetblue;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:7px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: cadetblue;
+  }
+  .text2{
+    text-align: center;
+    font-size: 25px;
+    color:cadetblue;
+  }
+
+
+
