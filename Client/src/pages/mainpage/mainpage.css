@@ -8,13 +8,14 @@
 
 .main-page {
     background-image: linear-gradient(rgba(66, 65, 65, 0.7), rgba(0, 0, 0, 0.7)),
-    url(images/work20.png);
+    url("https://bookdirtbusters.com/wp-content/uploads/2020/10/Cleaning-supplies.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
 .main-page h1 {
-    position: relative;
+    position: relati
+    ve;
     text-align: center;
     top: 30%;
     color: rgb(243, 236, 236);
@@ -177,7 +178,7 @@ button:hover .span:nth-child(5){
   transition-delay: 0.25s;
 } */
 
- div.gallery {
+ div .gallery {
     transition: 0.5s;
   } 
   
@@ -227,7 +228,9 @@ button:hover .span:nth-child(5){
     }
     .main-page .start-btn {
       top: 19%;
+      
     }
+   
 
   }
   @media only screen and (max-width: 700px) {

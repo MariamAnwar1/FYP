@@ -3,13 +3,13 @@ import { FaBars } from 'react-icons/fa';
 import { FaUser } from 'react-icons/fa';
 import { NavLink } from "react-router-dom";
 import "./Navebar.css"
-import logoPic from "../../../dist/assets/logoIcon.png"
+import logoIcon from "../../../dist/assets/logoicon.png"
 function Navebar({ isUserLoggedIn, setIsUserLoggedIn }) {
   return (
 
     <>
       <nav>
-        <div class="logo"><NavLink to="/"><img src={logoPic} /></NavLink></div>
+        <div class="logo"><NavLink to="/"><img src={logoIcon} /></NavLink></div>
         <input type="checkbox" id="click" />
         <label for="click" class="menu-btn">
           <FaBars className="i" />
@@ -34,12 +34,12 @@ function Navebar({ isUserLoggedIn, setIsUserLoggedIn }) {
                   <>
                     <NavLink to="/login">Login</NavLink>
                     <NavLink to="/signup">Sign up</NavLink>
-                  </> 
+                  </>
                   /* else */
                   :
                   <>
                     <NavLink to="/profile">Profile</NavLink>
-                    <NavLink to="/" onClick={()=>setIsUserLoggedIn(false)}>Log out</NavLink>
+                    <NavLink to="/" onClick={() => setIsUserLoggedIn(false)}>Log out</NavLink>
                   </>
               }
             </div>

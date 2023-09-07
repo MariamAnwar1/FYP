@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import { Multiselect } from 'multiselect-react-dropdown';
 import "./Profile.css"
 import { Link } from "react-router-dom";
+import profileicon from "../../../dist/assets/profileicon.png"
+
 function Profile() {
 
   const [tab, setTab] = useState("Profile")
@@ -79,7 +81,7 @@ function Profile() {
                   <h1>Profile</h1>
                 </div>
                 <div className="group_bottom">
-                  <img src="images/profile.png" />
+                  <img src={profileicon} />
                   <input type="file" hidden id="user-image" accept="image/*" />
                   {/* <FaUserAlt className="user" size="10em" /> */}
                 </div>

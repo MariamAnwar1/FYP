@@ -1,6 +1,18 @@
 import React from "react";
 import "./mainpage.css";
 import { Link } from "react-router-dom";
+import homeicon from "../../../dist/assets/homeicon.png"
+import windowicon from "../../../dist/assets/windowicon.png"
+import officeeicon from "../../../dist/assets/officeeicon.png"
+import sofaaicon from "../../../dist/assets/sofaaicon.png"
+import gardenicon from "../../../dist/assets/gardenicon.png"
+import curtainicon from "../../../dist/assets/curtainicon.png"
+import carpeticon from "../../../dist/assets/carpeticon.png"
+import hospitalicon from "../../../dist/assets/hospitalicon.png"
+import kitcheenicon from "../../../dist/assets/kitcheenicon.png"
+import streeticon from "../../../dist/assets/streeticon.png"
+
+
 function Mainpage() {
     return (
         <>
@@ -18,61 +30,61 @@ function Mainpage() {
 
                     <div class="responsive">
                         <div class="gallery">
-                            <img src="images/home.png" width="600" height="400" />
+                            <img src={homeicon} width="600" height="400" />
                             <div class="desc">Home Cleaning Service</div>
                         </div>
                     </div>
                     <div class="responsive">
                         <div class="gallery">
-                            <img src="images/kitcheen.png" width="600" height="400" />
+                            <img src={kitcheenicon} width="600" height="400" />
                             <div class="desc">kitchen Cleaning Service</div>
                         </div>
                     </div>
                     <div class="responsive">
                         <div class="gallery">
-                            <img src="images/window.png" width="600" height="400" />
+                            <img src={windowicon} width="600" height="400" />
                             <div class="desc">Window Cleaning Service</div>
                         </div>
                     </div>
                     <div class="responsive">
                         <div class="gallery">
-                            <img src="images/officee.png" width="600" height="400" />
+                            <img src={officeeicon} width="600" height="400" />
                             <div class="desc">Office Cleaning Service</div>
                         </div>
                     </div>
                     <div class="responsive">
                         <div class="gallery">
-                            <img src="images/hospital.png" width="600" height="400" />
+                            <img src={hospitalicon} width="600" height="400" />
                             <div class="desc">Hospital Cleaning Service</div>
                         </div>
                     </div>
                     <div class="responsive">
                         <div class="gallery">
-                            <img src="images/sofaa.png" width="600" height="400" />
+                            <img src={sofaaicon} width="600" height="400" />
                             <div class="desc">Sofa Cleaning Service</div>
                         </div>
                     </div>
                     <div class="responsive">
                         <div class="gallery">
-                            <img src="images/garden.png" width="600" height="400" />
+                            <img src={gardenicon} width="600" height="400" />
                             <div class="desc">Garden Cleaning Service</div>
                         </div>
                     </div>
                     <div class="responsive">
                         <div class="gallery">
-                            <img src="images/curtain.png" width="600" height="400" />
+                            <img src={curtainicon} width="600" height="400" />
                             <div class="desc">Curtain Cleaning Service</div>
                         </div>
                     </div>
                     <div class="responsive">
                         <div class="gallery">
-                            <img src="images/carpet.png" width="600" height="400" />
+                            <img src={carpeticon} width="600" height="400" />
                             <div class="desc">Carpet Cleaning Service</div>
                         </div>
                     </div>
                     <div class="responsive">
                         <div class="gallery">
-                            <img src="images/street.png" width="600" height="400" />
+                            <img src={streeticon} width="600" height="400" />
                             <div class="desc">Road Cleaning Service</div>
                         </div>
                     </div>
